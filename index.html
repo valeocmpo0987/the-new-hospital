@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> El MorAbejo</title>
+</head>
+<style>
+    *{
+
+padding: 0;
+margin: 0;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+header{
+background-image: url(banner.png);
+background-size: 100% 100%;
+background-position: center center;
+background-repeat: no-repeat;
+color: white;
+height: 100vh;
+}
+
+header #menu{
+padding: 50px 0;
+}
+
+header #menu ul{
+margin: 0;
+padding: 0;
+}
+
+header #menu ul li{
+display: inline-block;
+padding: 10px;
+vertical-align: middle;
+}
+
+header #menu ul li a{
+display: inline-block;
+}
+
+header #menu ul li a{
+color: white;
+text-decoration: none;
+}
+
+header #menu ul li a:hover{
+text-decoration: underline;
+}
+
+header #menu ul #logo{
+margin-right: 40%;
+margin-left: 100px;
+}
+
+
+/***************************/
+#main-container header main{
+margin: 0 auto;
+width: 500px;
+}
+#main-container header main div{
+display: inline-block;
+vertical-align: middle;
+}
+
+#main-container header main .text h1{   
+font-size: 80px;
+}
+
+#main-container header main .text p{   
+font-size: 24px;
+padding: 20px 0;
+}
+
+button{
+background: #24d9e6;
+border: 0;
+border-radius:  3px;
+color: white;
+cursor: pointer;
+font-size: 24px;
+padding: 20px 25px;
+margin: 40px 0;
+align-items: center;
+}
+
+button:hover{
+background: #14929b;
+}
+
+#main-container header main .image{   
+text-align: right;
+width: 700px;
+}
+
+
+
+
+
+.layout{
+width: 1280px;
+margin: 250px auto;
+}
+
+#main-container .section .layout div{
+display: inline-block;
+vertical-align: middle;
+}
+
+#main-container .section .layout h3{
+font-size: 48px;
+padding: 25px 0;
+}
+
+#main-container .section .layout p{
+padding: 25px 0;
+line-height: 32px;
+}
+
+#main-container .section .layout-left .text{
+width: 500px;
+}
+
+#main-container .section .layout-left .image{
+width: 770px;
+text-align: right;
+}
+
+#main-container .section .layout-right .text{
+width: 500px;
+}
+
+#main-container .section .layout-right .image{
+width: 770px;
+text-align: center;
+}
+
+/*
+
+
+footer{
+background-color: black;
+color: white;
+padding: 150px 20px;
+text-align: center;
+}
+*/
+footer{
+background: rgb(38, 202, 189);
+color: #fff;
+font-size: 20px;
+}
+</style>
+<body>
+    <div id="main-container">
+        <header>
+            <div id="menu">
+                <ul>
+                    <li id="logo"><a href="#"><img src="img/logo.png" alt=""></a></li>
+                    <li><a href="#">Local</a></li>
+                    <li><a href="#">Al minuto</a></li>
+                    <li><a href="#">Deportes</a></li>
+                    <li><a href="#">Mundo</a></li>
+                    <li><a href="#">Destacados</a></li>
+                    <li><a href="#">Envia tu noticia</a></li>
+                </ul>
+            </div>
+
+            <main>
+                <div class="text">
+                    <h1>El MorAbejo</h1>
+                    <p>
+                        La mejor aplicacion para informarte sobre tu comunidad.
+                    </p>
+                    <p>
+                        <button>INICIAR</button>
+                    </p>
+                </div>
+
+                <div class="image">
+                    <img src="" width="450" />
+                </div>
+            </main>
+        </header>
+
+        <div class="section" id="features">
+            <div class="layout layout-left">
+                <div class="text">
+                    <h3>Noticia</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro cum soluta ea rem? Culpa reprehenderit natus maxime iste, assumenda rerum illum cumque similique voluptatum nostrum consequatur, accusantium qui, dolorum architecto.</p>
+                </div>
+                <div class="image">
+                    <img src="noticia 2.jpeg" alt="" width="600">
+                </div>
+            </div>
+
+            <div class="layout layout-right">
+
+                <div class="image">
+                    <img src="noticia 3.jpeg" alt="" width="600">
+                </div>
+                <div class="text">
+                    <h3>Noticia</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro cum soluta ea rem? Culpa reprehenderit natus maxime iste</p>
+                </div>
+            </div>
+            <div class="svg-wave" style="height: 100px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(0, 174, 248);"></path>
+            </svg></div>
+        </div>
+
+        <footer style="background-color: rgb(0, 174, 248);">
+            <div style="text-align: center;"></div>
+                <div class="row" style="padding:2%; color:#000; text-align:center;">
+                    <div class="col-sm-6 col-xs-6"><i class="zmdi zmdi-account"></i><span>Direccion: Cra 43 #50-20</span></div>
+                    <br>            
+                    <div class="col-sm-6 col-xs-6"><p>Correo: morabejo@gmail.com</p></div>
+                </div>
+                <div class="col-sm-12 col-xs-12" style="text-align: center; padding-bottom: 3%; color:#000;"><p>MorAbejo periodico de tu pueblo</p></div>
+            </footer>
+        
+    </div>
+</body>
+</html>
