@@ -1,0 +1,21 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #007BFF;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
